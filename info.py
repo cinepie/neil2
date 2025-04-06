@@ -64,7 +64,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://neilfaru5:tBkbbuc7MpkuZX6f@neil.mpfkk.mongodb.net/?retryWrites=true&w=majority&appName=neil")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jojix54205:0GtCoMpOVHCjT9sx@mirror.ysg93.mongodb.net/?retryWrites=true&w=majority&appName=mirror")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
